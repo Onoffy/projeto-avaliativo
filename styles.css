@@ -239,3 +239,39 @@ html {
     letter-spacing: 2px;
     margin-bottom: 1.5rem;
 }
+
+hr {
+    border-color: rgba(57, 143, 204, 0.384);
+}
+
+.footer {
+    padding: 2rem;
+    font-family: "Spline Sans";
+    letter-spacing: 2px;
+    font-size: .625rem;
+    color: white;
+}
+
+.footer img {
+    display: block;
+    margin: 0 auto;
+    max-width: 12.5rem;
+    height: auto;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 0 0;
+    gap: 2rem;
+}
+
+.footerContainer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerContainer a:hover {
+    color: rgba(61, 163, 236, 0.658);
+    text-decoration: underline;
+}
