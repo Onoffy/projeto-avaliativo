@@ -206,40 +206,36 @@ html {
     border-radius: 12px;
 }
 
-
 .conteudoGratis{
     text-align: center;
     margin: 2.5rem;
     font-size: 1rem;
     font-family: "Spline Sans";
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: white;
 }
 
 .seçõesCG{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 3rem; 
     justify-items: center; 
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     margin: auto;
     max-width: 62.5rem; 
 }
 
 .expansao img {
     width: 12.5rem;       
-    height: 12.5rem;      
+    height: 12.5rem;  
+    margin: 0 0 1rem 0;    
     object-fit: cover;
-    border-radius: 10px; 
+    border-radius: 6px; 
 }
 
 .expansao h2 {
-    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
 }
-
-.expansao p {
-    margin-top: 0.5rem;
-    font-weight: bold;
-}
-
