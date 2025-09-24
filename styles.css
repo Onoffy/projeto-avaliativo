@@ -204,3 +204,41 @@ html {
     background-color: rgba(42, 94, 131, 0.384);
     border-radius: 12px;
 }
+
+
+.conteudoGratis{
+    text-align: center;
+    margin: 2.5rem;
+    font-size: 1rem;
+    font-family: "Spline Sans";
+    letter-spacing: 4px;
+    color: white;
+}
+
+.seçõesCG{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem; 
+    justify-items: center; 
+    align-items: center;
+    padding: 2rem;
+    margin: auto;
+    max-width: 62.5rem; 
+}
+
+.expansao img {
+    width: 12.5rem;       
+    height: 12.5rem;      
+    object-fit: cover;  /*corta o excesso*/
+    border-radius: 10px; 
+}
+
+.expansao h2 {
+    margin-bottom: 0.5rem;
+}
+
+.expansao p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
