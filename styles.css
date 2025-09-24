@@ -230,7 +230,7 @@ html {
 .expansao img {
     width: 12.5rem;       
     height: 12.5rem;      
-    object-fit: cover;  /*corta o excesso*/
+    object-fit: cover;
     border-radius: 10px; 
 }
 
