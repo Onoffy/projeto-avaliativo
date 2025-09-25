@@ -245,6 +245,7 @@ hr {
 }
 
 .footer {
+    margin: auto;
     padding: 2rem;
     font-family: "Spline Sans";
     letter-spacing: 2px;
@@ -263,7 +264,7 @@ hr {
     display: flex;
     justify-content: center;
     margin: 3rem 0 0 0;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .footerContainer a {
