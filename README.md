@@ -2,8 +2,8 @@
 
 ### - Equipe -
 <ol>
-  <li>Eriosvaldo</li>
-  <li>Guilherme</li>
-  <li>Renan</li>
-  <li>Thierry</li>
+  <li>Eriosvaldo Henrique Oliveira Roseno</li>
+  <li>Guilherme Almeida de Lima</li>
+  <li>José Renan Morais Cavalcanti</li>
+  <li>Thierry Almeida Braga Pereira</li>
 </ol>
