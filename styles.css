@@ -70,7 +70,7 @@ html {
 
 .descriptionText {
     text-align: center;
-    margin: 2rem;
+    margin: 2rem 0 .75rem 0;
     letter-spacing: 2px;
     font-size: 2rem;
     font-family: "Spline Sans";
@@ -152,19 +152,23 @@ html {
 .videoContainer {
     display: flex;
     justify-content: center;
+    margin: 0 0 2rem 0;
     padding: 1rem;
+}
+
+.videoContainerText {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: white;
+    font-family: "Spline Sans";
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 .videoContainer video {
     width: 100%;
     max-width: 80vw;
     height: auto;
-}
-
-.videoContainer iframe {
-    width: 100%;
-    max-width: 100rem;
-    height: 50rem;
 }
 
 .container {
@@ -206,7 +210,7 @@ html {
     border-radius: 12px;
 }
 
-.conteudoGratis{
+.conteudoGratis {
     text-align: center;
     margin: 2.5rem;
     font-size: 1rem;
@@ -215,7 +219,11 @@ html {
     color: white;
 }
 
-.seçõesCG{
+.conteudoGratis h1 {
+    margin: 0 0 1rem 0;
+}
+
+.seçõesCG {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem; 
@@ -249,7 +257,7 @@ hr {
     padding: 2rem;
     font-family: "Spline Sans";
     letter-spacing: 2px;
-    font-size: .625rem;
+    font-size: .75rem;
     color: white;
 }
 
@@ -273,6 +281,6 @@ hr {
 }
 
 .footerContainer a:hover {
-    color: rgba(61, 163, 236, 0.658);
+    color: rgba(61, 163, 236, 0.800);
     text-decoration: underline;
 }
